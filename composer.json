@@ -1,0 +1,29 @@
+{
+    "name": "zhijia/laravel-mongodb-transactions",
+    "description": "扩展了Jenssegers/laravel-mongodb，支持事务功能",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouhui",
+            "email": "zhouhui@hommey-inc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jenssegers/mongodb": "^3.4"
+    },
+    "require-dev": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": { "Zs\\": "src/" }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+
+}
