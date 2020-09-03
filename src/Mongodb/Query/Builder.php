@@ -172,12 +172,12 @@ class Builder extends JenssegersBuilder
     /**
      * @inheritdoc
      */
-    public function truncate()
+    /*public function truncate()
     {
         $result = $this->collection->drop();
 
         return (1 == (int) $result->ok);
-    }
+    }*/
 
     /**
      * Perform an update query.
